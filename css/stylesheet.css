@@ -17,6 +17,7 @@
     overflow: hidden;
   }
 
+  /** Navbar **/
 .container {
     position: relative;
     text-align: center;
@@ -67,6 +68,7 @@
     float: left;
   }
 
+  /** Responsive Navbar*/
   @media only screen and (max-width:800px) {
     /* For tablets: */
     .main {

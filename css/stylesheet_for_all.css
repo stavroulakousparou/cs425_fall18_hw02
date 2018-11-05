@@ -1,6 +1,5 @@
   #main_photo{
       left:0;
-      
   }
 
   .row {
@@ -11,7 +10,7 @@
     padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create four equal columns that sits next to each other for photo gallery */
 .column {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
@@ -58,8 +57,7 @@ footer{
   text-align: right;
 }
 
-
-
+/** Paragraph **/
 p{
     font-style: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -75,19 +73,14 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-style: italic;
-   text-align: center;
+    text-align: center;
     
 }
-
-#com1{
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
     font-style: italic;
-    text-align: right;
-    
-}
-
-#working_tables{
-    padding: 5px 20px 5px 20px;
-
+    color: rgb(51, 75, 182);
 }
 
 
@@ -199,13 +192,6 @@ input[type=submit]:hover {
     border-radius: 15%;
 }
 
-paragraph_bio{
-    font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px 0px 5px 0px;
-    text-align: justify;
-}
-
 .container_3 {
     border: 2px solid #ccc;
     background-color: #eee;
@@ -243,6 +229,7 @@ paragraph_bio{
   }
 
   #bio{
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
   }
