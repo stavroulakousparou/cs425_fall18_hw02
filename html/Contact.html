@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="stylesheet_for_all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <head>
@@ -8,17 +9,15 @@
     <title>JD Photography-Contact</title>
 </head>
 
-<body style="font-family:'Courier New', Courier, monospace">
+<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
 
     <div class="container">
         <div class="navbar">
-            <a href="HomePage.html"><i class="fa fa-fw fa-home"></i> Home Page </a>
-            <a href="About.html"><i class="fa fa-fw fa-book"></i> About </a>
             <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i> Contact </a>
+            <a href="About.html"><i class="fa fa-fw fa-book"></i> About </a>
+            <a href="HomePage.html"><i class="fa fa-fw fa-home"></i> Home Page </a>
 
-            <div class="topnav-left">
-                <a href="#back"><i class="fa fa-fw fa-backward"></i> Back </a>
-            </div>
+
         </div>
         <div>
             <h6>\n</h6>
@@ -26,11 +25,211 @@
 
     </div>
 
+    <h1><i class="fa fa-fw fa-map-marker" style="font-size:30px; color:rgb(51, 75, 182); text-shadow:2px 2px 2px #000000;"></i>
+        Location </h1>
 
+    <p>15 George Street
+        SOUTH EAST LONDON
+        SE51 0MF</p>
 
-    <div>
-        <h1>djcjcnjdcnj</h1>
+    <hr>
+  
+
+    <h1><i class="fa fa-fw fa-hourglass" style="font-size:30px; color:rgb(51, 75, 182); text-shadow:2px 2px 2px #000000;"></i>
+        Working Hours </h1>
+
+    <table id="hours_table">
+        <tr>
+            <td><b>Monday:</b></td>
+            <td>9:00 - 13:00 && 15:00 - 19:00</td>
+        </tr>
+        <tr>
+            <td><b> Tuesday: </b></td>
+            <td>9:00 - 13:00 && 15:00 - 19:00</td>
+        </tr>
+        <tr>
+            <td><b> Wednesday: </b></td>
+            <td>9:00 - 13:00</td>
+        </tr>
+        <tr>
+            <td><b>Thursday:</b></td>
+            <td>9:00 - 13:00 && 15:00 - 19:00</td>
+        </tr>
+        <tr>
+            <td><b>Friday:</b></td>
+            <td>9:00 - 13:00 && 15:00 - 19:00</td>
+        </tr>
+        <tr>
+            <td><b>Saturday:</b></td>
+            <td>9:00 - 13:00</td>
+        </tr>
+        <tr>
+            <td><b>Sunday:</b></td>
+            <td> CLOSED </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1><i class="fa fa-fw fa-wpforms" style="font-size:30px; color:rgb(51, 75, 182); text-shadow:2px 2px 2px #242323;"></i>
+        Write us a message.. </h1>
+
+    <div class="container_2">
+        <div class="row_2">
+            <div class="col-25">
+                <label><b>Name </b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="name" name="name" placeholder="Your name...">
+            </div>
+        </div>
+        <div class="row_2">
+            <div class="col-25">
+                <label for="lname"><b> Surname </b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="surname" name="surname" placeholder="Your surname...">
+            </div>
+        </div>
+        <div class="row_2">
+            <div class="col-25">
+                <label for="email"><b> Email </b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="email" name="email" placeholder="Your email address...">
+            </div>
+        </div>
+        <div class="row_2">
+            <div class="col-25">
+                <label for="subject"><b> Subject </b></label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="subject" name="subject" placeholder="Subject...">
+            </div>
+        </div>
+        <div class="row_2">
+            <div class="col-25">
+                <label><b>Your message </b></label>
+            </div>
+            <div class="col-75">
+                <textarea id="text" name="text" placeholder="Write something.." style="height:150px"></textarea>
+            </div>
+        </div>
+        <br>
+        <div class="row_2">
+            <input id="submit" type="submit" value="Send">
+        </div>
+
     </div>
+
+    <hr>
+    <h1><i class="fa fa-fw fa-calendar" style="font-size:30px; color:rgb(51, 75, 182); text-shadow:2px 2px 2px #242323;"></i>
+        Choose a meeting </h1>
+
+    <div class="container_2">
+        <div class="row_2">
+            <div class="col-25">
+                <label><b>Day </b></label>
+            </div>
+            <div class="col-25">
+                <select id="day" name="day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+            </div>
+        </div>
+        <div class="row_2">
+            <div class="col-25">
+                <label><b>Month</b></label>
+            </div>
+            <div class="col-25">
+                <select id="month" name="month">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select> </div>
+        </div>
+        <div class="row_2">
+            <div class="col-25">
+                <label><b>Year</b></label>
+            </div>
+            <div class="col-25">
+                <select id="year" name="year">
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select>
+            </div>
+        </div>
+        <div class="row_2">
+            <div class="col-25">
+                <label><b>Time</b></label>
+            </div>
+            <div class="col-25">
+                <textarea id="meeting_time" name="meeting_time" placeholder="at what time..."></textarea>
+            </div>
+        </div>
+        <div class="row_2">
+            <input  id="meeting" type="submit" value="Close the meeting">
+        </div>
+        </form>
+    </div>
+
+
+
+    <hr>
+    <br>
+
+
+
+    <footer>
+        <i class="fa fa-fw fa-facebook-square" style="font-size:40px; color:rgb(6, 23, 179); text-shadow:2px 2px 2px #000000;"></i>
+        <i class="fa fa-fw fa-instagram" style="font-size:40px; color:rgb(159, 32, 218); text-shadow:2px 2px 2px #000000;"></i>
+        <i class="fa fa-fw fa-twitter" style="font-size:40px; color:rgb(50, 157, 219); text-shadow:2px 2px 2px #000000;"></i>
+        <i class="fa fa-fw fa-youtube" style="font-size:40px; color:rgb(165, 5, 5); text-shadow:2px 2px 2px #000000;"></i>
+
+    </footer>
 </body>
 
 </html>
