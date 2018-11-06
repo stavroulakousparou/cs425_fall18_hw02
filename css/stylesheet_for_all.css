@@ -183,7 +183,6 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
 .centered_img {
     width: 150px;
     border-radius: 50%;
