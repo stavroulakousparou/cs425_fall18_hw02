@@ -232,4 +232,9 @@ input[type=submit]:hover {
     font-style: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
+    text-align: center;
+  }
+
+  #go_up{
+      text-align: left;
   }
