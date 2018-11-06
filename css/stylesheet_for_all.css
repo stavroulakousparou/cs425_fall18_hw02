@@ -1,5 +1,6 @@
   #main_photo{
       left:0;
+      border-radius: 0%;
   }
 
   .row {
@@ -188,7 +189,7 @@ input[type=submit]:hover {
     border-radius: 50%;
 }
 
-#john_photo{
+img{
     border-radius: 15%;
 }
 
@@ -235,6 +236,4 @@ input[type=submit]:hover {
     text-align: center;
   }
 
-  #go_up{
-      text-align: left;
-  }
+  
